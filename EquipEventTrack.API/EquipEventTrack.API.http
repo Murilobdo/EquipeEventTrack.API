@@ -1,0 +1,6 @@
+@EquipEventTrack.API_HostAddress = http://localhost:5210
+
+GET {{EquipEventTrack.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
