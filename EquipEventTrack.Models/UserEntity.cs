@@ -3,6 +3,6 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace EquipEventTrack.Models;
 
-public class UserEntity : IdentityUser
+public class UserEntity : IdentityUser<int>
 {
 }
