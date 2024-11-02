@@ -36,7 +36,7 @@ app.MapPost("/logout",
         await signInManager.SignOutAsync();
         return Results.Ok();
     }
-);
+).RequireAuthorization();
 
 app.MapIdentityApi<UserEntity>();
 
